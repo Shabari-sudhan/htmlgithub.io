@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Team</title>
+    <style>
+        /* CSS styles for the navigation bar */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(48, 48, 49);
+            width: 100%;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: rgb(2, 2, 2);
+        }
+        div{
+            width: 50%;
+            float:right;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#India">India</a></li>
+        <li><a href="#Afghanistan">Afghanistan</a></li>
+        <li><a href="#England">England</a></li>
+        <li><a href="#SouthAfrica">South Africa</a></li>
+    </ul>
+    <div>
+        <iframe src="" name="content" height="630px" width="100%" title="cricket"></iframe>
+    </div>
+
+    <div style="background-color: rgb(70, 113, 255);">
+        <h1 id="India">Indian Cricket Team</h1>
+        <p>The Indian cricket team is one of the most successful cricket teams in the world...</p>
+        <h6>To know more click the <a href="https://www.bcci.tv/players" target="content">Explore</a> button</h6>
+    </div>
+
+    <div  style="background-color: rgb(11, 11, 128);">
+        <h1 id="Afghanistan">Afghanistan Cricket Team</h1>
+        <p>Cricket in Afghanistan was popularised by Afghan expatriates who learnt the sport...</p>
+        <h6>To know more click the <a href="https://www.icc-cricket.com/about/members/associate/afghanistan-cricket-board" target="content">Explore</a> button</h6>
+    </div>
+
+    <div style="background-color: crimson;">
+        <h1 id="England">England Cricket Team</h1>
+        <p>The England men's cricket team represents England and Wales in international cricket...</p>
+        <h6>To know more click the <a href="https://www.ecb.co.uk/england/men" target="content">Explore</a> button</h6>
+    </div>
+
+    <div  style="background-color: rgb(0, 100, 30);">
+        <h1 id="SouthAfrica">South African Cricket Team</h1>
+        <p>The South Africa men's national cricket team, also known as the Proteas...</p>
+        <h6>To know more click the <a href="https://cricket.co.za/" target="content">Explore</a> button</h6>
+    </div>
+    
+</body>
+</html>
