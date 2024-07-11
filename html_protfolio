@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protfolio</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: rgb(32, 32, 32);
+            color: white;
+            width: 100%;
+        }
+        nav{
+            background-color: rgb(99, 99, 99);
+            color: white;
+            height: 80px;
+            width:100%;
+        }
+        li{
+            float: left;
+            padding: 10px;
+            
+        }
+        li:hover{
+            background-color: rgb(141, 141, 141);
+        }
+    </style>
+</head>
+<nav>
+    <ul style="list-style-type:none;">
+        <li><a href="#home" style="text-decoration: none; color: white;"><h3>Home</h3></a></li>
+        <li><a href="#about"style="text-decoration: none;color: white;"><h3>About</h3></a></li>
+        <li><a href="#skills"style="text-decoration: none;color: white;"><h3>Skills</h3></a></li>
+        <li><a href="#contact"style="text-decoration: none;color: white;"><h3>Contact</h3></a></li>    
+    </ul>
+</nav>
+<body>
+    <div id="home">
+        <h1 style="text-align: center;">Hi,I am Shabari</h1>
+        <center>
+        <img src="c:\Users\Student\Downloads\profile3-removebg-preview (1).png" height="500px" width="600px">
+        </center>
+    </div>
+    <p>____________________________________________________________________________________________________________________________________________</p>
+    <div id="about">
+        <h1>
+            About my self
+        </h1>
+        <p style="color: darkgray; padding: 10px;">My name is Shiri Shabari Sudhan you can call me Shabari,I have completer my edcation in P.A.C.M.Hr.Sec.School my 12th mark is 550 and i have studied c and python in ,I have also studied Html and web designing
+            my age is 17 and going to collage in few month, And I have talent in drawing and art,my hobby is to watch anime if you need any anime recomendation feel free to ask ,I love playing cricket and i'm from the country India, I know english and tamil(mother toung) please contact me in only these two languages ,I love visiting places with natural landscape ,and I love watching cenimas
+         </p>
+         <h3>My Works</h3>
+         <img src="c:\Users\Student\Downloads\download (3).png" height="200" width="300" >
+         <img src="c:\Users\Student\Downloads\download (3).png" height="200" width="300" >
+         <img src="c:\Users\Student\Downloads\download (3).png" height="200" width="300" >
+         <img src="c:\Users\Student\Downloads\download (3).png" height="200" width="300" >
+         <p style="color: darkgray; padding: 10px;"> these are my html works </p>
+    </div>
+    <p>____________________________________________________________________________________________________________________________________________</p>
+    <div id="skills">
+         <h1>
+             My Skills
+         </h1>
+         <p style="color: darkgray;">Programing</p>
+         <div style="background-color: white;height: 20px; width: 95%;">
+          <p style="background-color: rgb(94, 94, 94); height: 20px; width:89%;"></p>
+         </div>
+         <p style="color: darkgray;">Web designing</p>
+         <div style="background-color: white;height: 20px; width: 95%;">
+          <p style="background-color: rgb(94, 94, 94); height: 20px; width:75%;"></p>
+         </div>
+         <p style="color: darkgray;">Drawing</p>
+         <div style="background-color: white;height: 20px; width: 95%;">
+          <p style="background-color: rgb(94, 94, 94); height: 20px; width:85%;"></p>
+         </div>
+         <h3>Projects done:</h3>
+
+         <p></p>  
+         <center> 
+         <div style="background-color: rgb(147, 144, 144); padding: 10Px; height: 350px ;width:50%;">
+              <h1 style="background-color: rgb(30, 27, 27); ">Projects</h1>
+              <p style="color: rgb(2, 2, 2);">ATM program in C</p>
+              <p style="color: rgb(0, 0, 0);">Hotel billing in c</p>
+              <p style="color: rgb(1, 1, 1);">Login page in tkinter</p>
+              <p style="color: rgb(10, 9, 9);">Hotel billing in tkinter</p>
+              <p style="color:rgb(9, 9, 9);">Admission page in python</p>
+              <p style="color:rgb(6, 6, 6)">Banking using class in python</p>
+              <p style="color: rgb(12, 12, 12);">login page in html</p>
+              <p style="color: rgb(8, 8, 8);">Simple protfolio in html</p>
+            
+         </div>
+        </center> 
+    </div>
+        <p>____________________________________________________________________________________________________________________________________________</p>
+    <div id="contact">
+        <h1>Contact</h1>
+        <h4 style="color: darkgray;">phone no: 80808080</h4>
+        <h4 style="color: darkgray;">Email id:user37@gamil.com</h4>
+        <h4 style="color: darkgray;">Living in: Tamil nadu, India</h4>
+
+    </div>
+</body>
+</html>
